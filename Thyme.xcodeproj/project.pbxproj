@@ -8,9 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		256AC3DA0F4B6AC300CF3369 /* ThymeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ThymeAppDelegate.m */; };
+		2C14F3AE220B6F4D0087FA3F /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C14F3A7220B6F4C0087FA3F /* DDHotKeyUtilities.m */; };
 		2C888B1E1EA6050F003E4A96 /* TagWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C888B1D1EA6050F003E4A96 /* TagWindowController.xib */; };
 		2C888B231EA6076F003E4A96 /* TagWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C888B221EA6076F003E4A96 /* TagWindowController.m */; };
-		2C14F3AE220B6F4D0087FA3F /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C14F3A7220B6F4C0087FA3F /* DDHotKeyUtilities.m */; };
+		78DE4677258C523900E5A019 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		78DE4678258C523900E5A019 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF00B0081120E26D00F3503E /* MainMenu.xib */; };
+		78DE4679258C523900E5A019 /* TagWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C888B1D1EA6050F003E4A96 /* TagWindowController.xib */; };
+		78DE467A258C523900E5A019 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = CFE78F1411BA73B700C2A003 /* logo.icns */; };
+		78DE467B258C523900E5A019 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CFE78F5411BA786A00C2A003 /* Credits.rtf */; };
+		78DE467C258C523900E5A019 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CFE78F5811BA797A00C2A003 /* LICENSE */; };
+		78DE467D258C523900E5A019 /* logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE78F8111BA7D5D00C2A003 /* logo_small.png */; };
+		78DE467E258C523900E5A019 /* scriptSupport.sdef in Resources */ = {isa = PBXBuildFile; fileRef = CF068799163C9CEC006796A6 /* scriptSupport.sdef */; };
+		78DE467F258C523900E5A019 /* logo_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE000F6216B457E1009A89B0 /* logo_small@2x.png */; };
+		78DE4680258C523900E5A019 /* PreferencesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFD3D42116F700C700A23F33 /* PreferencesWindowController.xib */; };
+		78DE4681258C523900E5A019 /* defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFB66C3216F7B922009DEE3F /* defaults.plist */; };
+		78DE4682258C523900E5A019 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = CF2A633E175188960089E16F /* Growl Registration Ticket.growlRegDict */; };
+		78DE4684258C523900E5A019 /* TagWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C888B221EA6076F003E4A96 /* TagWindowController.m */; };
+		78DE4685258C523900E5A019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		78DE4686258C523900E5A019 /* ThymeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ThymeAppDelegate.m */; };
+		78DE4687258C523900E5A019 /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C14F3A7220B6F4C0087FA3F /* DDHotKeyUtilities.m */; };
+		78DE4688258C523900E5A019 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF00807E116E75E80028AA45 /* DDHotKeyCenter.m */; };
+		78DE4689258C523900E5A019 /* DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = CF7FFC0A11B942E4005A78A3 /* DataModel.xcdatamodel */; };
+		78DE468A258C523900E5A019 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0779E211B9568900439C51 /* Session.m */; };
+		78DE468B258C523900E5A019 /* StartCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CF06879C163C9EBC006796A6 /* StartCommand.m */; };
+		78DE468C258C523900E5A019 /* StopCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CF06879F163CA40E006796A6 /* StopCommand.m */; };
+		78DE468D258C523900E5A019 /* PauseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0687A2163CA41B006796A6 /* PauseCommand.m */; };
+		78DE468E258C523900E5A019 /* ToggleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0687A5163CA42D006796A6 /* ToggleCommand.m */; };
+		78DE468F258C523900E5A019 /* Stopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDFADE216F4C606008BF5F3 /* Stopwatch.m */; };
+		78DE4690258C523900E5A019 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD3D42016F700C700A23F33 /* PreferencesWindowController.m */; };
+		78DE4692258C523900E5A019 /* PTHotKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCBC66216F5DFB700DC663A /* PTHotKey.framework */; };
+		78DE4693258C523900E5A019 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCBC66016F5DFB700DC663A /* ShortcutRecorder.framework */; };
+		78DE4694258C523900E5A019 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		78DE4695258C523900E5A019 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF00806D116E75A40028AA45 /* Carbon.framework */; };
+		78DE4696258C523900E5A019 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF2A634517518C470089E16F /* Growl.framework */; };
+		78DE4698258C523900E5A019 /* PTHotKey.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CFCBC66216F5DFB700DC663A /* PTHotKey.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		78DE4699258C523900E5A019 /* ShortcutRecorder.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CFCBC66016F5DFB700DC663A /* ShortcutRecorder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		78DE469A258C523900E5A019 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF2A634517518C470089E16F /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -79,6 +112,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		78DE4697258C523900E5A019 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				78DE4698258C523900E5A019 /* PTHotKey.framework in CopyFiles */,
+				78DE4699258C523900E5A019 /* ShortcutRecorder.framework in CopyFiles */,
+				78DE469A258C523900E5A019 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -91,11 +136,13 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2C14F3A7220B6F4C0087FA3F /* DDHotKeyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyUtilities.m; sourceTree = "<group>"; };
+		2C14F3AD220B6F4D0087FA3F /* DDHotKeyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyUtilities.h; sourceTree = "<group>"; };
 		2C888B1D1EA6050F003E4A96 /* TagWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagWindowController.xib; sourceTree = "<group>"; };
 		2C888B211EA60761003E4A96 /* TagWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagWindowController.h; sourceTree = "<group>"; };
 		2C888B221EA6076F003E4A96 /* TagWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagWindowController.m; sourceTree = "<group>"; };
-		2C14F3A7220B6F4C0087FA3F /* DDHotKeyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyUtilities.m; sourceTree = "<group>"; };
-		2C14F3AD220B6F4D0087FA3F /* DDHotKeyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyUtilities.h; sourceTree = "<group>"; };
+		78DE469E258C523900E5A019 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DE46A2258C523900E5A019 /* Timer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Timer-Info.plist"; path = "/Users/zl/GitHub/thyme/Timer-Info.plist"; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Thyme-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Thyme-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Thyme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thyme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE000F6216B457E1009A89B0 /* logo_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_small@2x.png"; sourceTree = "<group>"; };
@@ -131,6 +178,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		78DE4691258C523900E5A019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DE4692258C523900E5A019 /* PTHotKey.framework in Frameworks */,
+				78DE4693258C523900E5A019 /* ShortcutRecorder.framework in Frameworks */,
+				78DE4694258C523900E5A019 /* Cocoa.framework in Frameworks */,
+				78DE4695258C523900E5A019 /* Carbon.framework in Frameworks */,
+				78DE4696258C523900E5A019 /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D11072E0486CEB800E47090 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* Thyme.app */,
+				78DE469E258C523900E5A019 /* Timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,6 +258,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				78DE46A2258C523900E5A019 /* Timer-Info.plist */,
 			);
 			name = Thyme;
 			sourceTree = "<group>";
@@ -308,6 +369,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		78DE4675258C523900E5A019 /* Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78DE469B258C523900E5A019 /* Build configuration list for PBXNativeTarget "Timer" */;
+			buildPhases = (
+				78DE4676258C523900E5A019 /* Resources */,
+				78DE4683258C523900E5A019 /* Sources */,
+				78DE4691258C523900E5A019 /* Frameworks */,
+				78DE4697258C523900E5A019 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timer;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Thyme;
+			productReference = 78DE469E258C523900E5A019 /* Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8D1107260486CEB800E47090 /* Thyme */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Thyme" */;
@@ -340,6 +420,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Thyme */;
@@ -353,6 +434,7 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* Thyme */,
+				78DE4675258C523900E5A019 /* Timer */,
 			);
 		};
 /* End PBXProject section */
@@ -382,6 +464,25 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		78DE4676258C523900E5A019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DE4677258C523900E5A019 /* InfoPlist.strings in Resources */,
+				78DE4678258C523900E5A019 /* MainMenu.xib in Resources */,
+				78DE4679258C523900E5A019 /* TagWindowController.xib in Resources */,
+				78DE467A258C523900E5A019 /* logo.icns in Resources */,
+				78DE467B258C523900E5A019 /* Credits.rtf in Resources */,
+				78DE467C258C523900E5A019 /* LICENSE in Resources */,
+				78DE467D258C523900E5A019 /* logo_small.png in Resources */,
+				78DE467E258C523900E5A019 /* scriptSupport.sdef in Resources */,
+				78DE467F258C523900E5A019 /* logo_small@2x.png in Resources */,
+				78DE4680258C523900E5A019 /* PreferencesWindowController.xib in Resources */,
+				78DE4681258C523900E5A019 /* defaults.plist in Resources */,
+				78DE4682258C523900E5A019 /* Growl Registration Ticket.growlRegDict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D1107290486CEB800E47090 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -404,6 +505,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		78DE4683258C523900E5A019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DE4684258C523900E5A019 /* TagWindowController.m in Sources */,
+				78DE4685258C523900E5A019 /* main.m in Sources */,
+				78DE4686258C523900E5A019 /* ThymeAppDelegate.m in Sources */,
+				78DE4687258C523900E5A019 /* DDHotKeyUtilities.m in Sources */,
+				78DE4688258C523900E5A019 /* DDHotKeyCenter.m in Sources */,
+				78DE4689258C523900E5A019 /* DataModel.xcdatamodel in Sources */,
+				78DE468A258C523900E5A019 /* Session.m in Sources */,
+				78DE468B258C523900E5A019 /* StartCommand.m in Sources */,
+				78DE468C258C523900E5A019 /* StopCommand.m in Sources */,
+				78DE468D258C523900E5A019 /* PauseCommand.m in Sources */,
+				78DE468E258C523900E5A019 /* ToggleCommand.m in Sources */,
+				78DE468F258C523900E5A019 /* Stopwatch.m in Sources */,
+				78DE4690258C523900E5A019 /* PreferencesWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8D11072C0486CEB800E47090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,6 +559,53 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		78DE469C258C523900E5A019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Thyme_Prefix.pch;
+				INFOPLIST_FILE = "Timer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		78DE469D258C523900E5A019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Thyme_Prefix.pch;
+				INFOPLIST_FILE = "Timer-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -513,6 +681,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		78DE469B258C523900E5A019 /* Build configuration list for PBXNativeTarget "Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78DE469C258C523900E5A019 /* Debug */,
+				78DE469D258C523900E5A019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Thyme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
