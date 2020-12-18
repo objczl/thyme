@@ -258,7 +258,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				78DE46A2258C523900E5A019 /* Timer-Info.plist */,
 			);
 			name = Thyme;
 			sourceTree = "<group>";
@@ -279,6 +278,7 @@
 				CFDFADDF16F4C41E008BF5F3 /* Logo */,
 				CF068799163C9CEC006796A6 /* scriptSupport.sdef */,
 				8D1107310486CEB800E47090 /* Thyme-Info.plist */,
+				78DE46A2258C523900E5A019 /* Timer-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				CFE78F5411BA786A00C2A003 /* Credits.rtf */,
 				CFE78F5811BA797A00C2A003 /* LICENSE */,
