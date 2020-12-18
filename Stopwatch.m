@@ -8,6 +8,8 @@
 
 #import "Stopwatch.h"
 
+static const NSTimeInterval kInterval = 25 * 60;
+
 @interface Stopwatch ()
 @property (nonatomic, retain) NSTimer* timer;
 @property (nonatomic, retain) NSDate* reference;
@@ -26,7 +28,7 @@
     if (self = [super init]) {
         self.timer = nil;
         self.reference = [NSDate date];
-        self.accum = 0;
+        self.accum = kInterval;
     }
     
     return self;
@@ -58,7 +60,7 @@
         return self.accum;
     }
     
-    return [[NSDate date] timeIntervalSinceDate:reference] + self.accum;
+    return self.accum - [[NSDate date] timeIntervalSinceDate:reference];
 }
 
 - (BOOL) isActive {
@@ -70,7 +72,7 @@
 }
 
 - (BOOL) isStopped {
-    return self.timer == nil && self.accum == 0;
+    return self.timer == nil && self.accum == kInterval;
 }
 
 - (void) start {
@@ -119,7 +121,7 @@
     
     NSTimeInterval value = [self value];
     
-    self.accum = 0;
+    self.accum = kInterval;
     
     [self.timer invalidate];
     self.timer = nil;
