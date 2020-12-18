@@ -361,17 +361,17 @@
 
 - (void)notifyStart
 {
-    [GrowlApplicationBridge notifyWithTitle:@"Thyme" description:@"Started" notificationName:@"start" iconData:nil priority:0 isSticky:NO clickContext:nil];
+    [GrowlApplicationBridge notifyWithTitle:@"Timer" description:@"Started" notificationName:@"start" iconData:nil priority:0 isSticky:NO clickContext:nil];
 }
 
 - (void)notifyPauseWithDescription:(NSString*)description
 {
-    [GrowlApplicationBridge notifyWithTitle:@"Thyme" description:[@"Paused at " stringByAppendingString:description] notificationName:@"pause" iconData:nil priority:0 isSticky:NO clickContext:nil];
+    [GrowlApplicationBridge notifyWithTitle:@"Timer" description:[@"Paused at " stringByAppendingString:description] notificationName:@"pause" iconData:nil priority:0 isSticky:NO clickContext:nil];
 }
 
 - (void)notifyStopWithDescription:(NSString*)description
 {
-    [GrowlApplicationBridge notifyWithTitle:@"Thyme" description:[@"Stopped at " stringByAppendingString:description] notificationName:@"stop" iconData:nil priority:0 isSticky:NO clickContext:nil];
+    [GrowlApplicationBridge notifyWithTitle:@"Timer" description:[@"Stopped at " stringByAppendingString:description] notificationName:@"stop" iconData:nil priority:0 isSticky:NO clickContext:nil];
 }
 
 #pragma mark NSUserDefaultsDidChangeNotification
