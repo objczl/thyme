@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		256AC3DA0F4B6AC300CF3369 /* ThymeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ThymeAppDelegate.m */; };
-		2C14F3AE220B6F4D0087FA3F /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C14F3A7220B6F4C0087FA3F /* DDHotKeyUtilities.m */; };
 		2C888B1E1EA6050F003E4A96 /* TagWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C888B1D1EA6050F003E4A96 /* TagWindowController.xib */; };
 		2C888B231EA6076F003E4A96 /* TagWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C888B221EA6076F003E4A96 /* TagWindowController.m */; };
 		78DE4677258C523900E5A019 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -26,7 +25,6 @@
 		78DE4684258C523900E5A019 /* TagWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C888B221EA6076F003E4A96 /* TagWindowController.m */; };
 		78DE4685258C523900E5A019 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		78DE4686258C523900E5A019 /* ThymeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* ThymeAppDelegate.m */; };
-		78DE4687258C523900E5A019 /* DDHotKeyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C14F3A7220B6F4C0087FA3F /* DDHotKeyUtilities.m */; };
 		78DE4688258C523900E5A019 /* DDHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF00807E116E75E80028AA45 /* DDHotKeyCenter.m */; };
 		78DE4689258C523900E5A019 /* DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = CF7FFC0A11B942E4005A78A3 /* DataModel.xcdatamodel */; };
 		78DE468A258C523900E5A019 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0779E211B9568900439C51 /* Session.m */; };
@@ -136,8 +134,6 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		2C14F3A7220B6F4C0087FA3F /* DDHotKeyUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDHotKeyUtilities.m; sourceTree = "<group>"; };
-		2C14F3AD220B6F4D0087FA3F /* DDHotKeyUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDHotKeyUtilities.h; sourceTree = "<group>"; };
 		2C888B1D1EA6050F003E4A96 /* TagWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagWindowController.xib; sourceTree = "<group>"; };
 		2C888B211EA60761003E4A96 /* TagWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagWindowController.h; sourceTree = "<group>"; };
 		2C888B221EA6076F003E4A96 /* TagWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagWindowController.m; sourceTree = "<group>"; };
@@ -348,8 +344,6 @@
 		CFDFADDE16F4C1D2008BF5F3 /* Deps */ = {
 			isa = PBXGroup;
 			children = (
-				2C14F3AD220B6F4D0087FA3F /* DDHotKeyUtilities.h */,
-				2C14F3A7220B6F4C0087FA3F /* DDHotKeyUtilities.m */,
 				CF00807D116E75E80028AA45 /* DDHotKeyCenter.h */,
 				CF00807E116E75E80028AA45 /* DDHotKeyCenter.m */,
 			);
@@ -512,7 +506,6 @@
 				78DE4684258C523900E5A019 /* TagWindowController.m in Sources */,
 				78DE4685258C523900E5A019 /* main.m in Sources */,
 				78DE4686258C523900E5A019 /* ThymeAppDelegate.m in Sources */,
-				78DE4687258C523900E5A019 /* DDHotKeyUtilities.m in Sources */,
 				78DE4688258C523900E5A019 /* DDHotKeyCenter.m in Sources */,
 				78DE4689258C523900E5A019 /* DataModel.xcdatamodel in Sources */,
 				78DE468A258C523900E5A019 /* Session.m in Sources */,
@@ -532,7 +525,6 @@
 				2C888B231EA6076F003E4A96 /* TagWindowController.m in Sources */,
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* ThymeAppDelegate.m in Sources */,
-				2C14F3AE220B6F4D0087FA3F /* DDHotKeyUtilities.m in Sources */,
 				CF00807F116E75E80028AA45 /* DDHotKeyCenter.m in Sources */,
 				CF7FFC0B11B942E4005A78A3 /* DataModel.xcdatamodel in Sources */,
 				CF0779E311B9568900439C51 /* Session.m in Sources */,
