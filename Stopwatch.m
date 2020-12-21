@@ -119,7 +119,7 @@ static const NSTimeInterval kInterval = 25 * 60;
         return;
     }
     
-    NSTimeInterval value = [self value];
+    NSTimeInterval value = [self value] > 0 ? [self value] : -[self value] + kInterval;
     
     self.accum = kInterval;
     
