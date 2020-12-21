@@ -275,9 +275,11 @@
         [statusItem.button setImage: logo];
     } else {
         NSDictionary *attributes = @{ NSFontAttributeName: [NSFont fontWithName:@"Helvetica Neue" size: 14] };
+        NSAttributedString *title = [[NSAttributedString alloc] initWithString:[self.stopwatch description] attributes:attributes];
         [statusItem setLength:[self.stopwatch value] > 3600 ? 80.0 : 50.0];
-        [statusItem.button setAttributedTitle:[[NSAttributedString alloc] initWithString:[self.stopwatch description] attributes:attributes]];
+        [statusItem.button setAttributedTitle:title];
         [statusItem.button setImage:nil];
+        [title release];
     }
 }
 
