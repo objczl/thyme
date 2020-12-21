@@ -134,6 +134,10 @@ static const NSTimeInterval kInterval = 25 * 60;
 #pragma mark Private
 
 - (void) tick {
+    if (self.value <= 0) {
+        [self.delegate didFinish:self];
+        return;
+    }
     if (self.delegate) {
         [self.delegate didChange:self];
     }

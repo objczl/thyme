@@ -360,6 +360,10 @@
     [self updateStatusBar];
 }
 
+- (void) didFinish:(id)stopwatch {
+    [self resetWithNotification:NO];
+}
+
 #pragma mark Notifications
 
 - (void)notifyStart

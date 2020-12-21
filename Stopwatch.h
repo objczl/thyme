@@ -14,6 +14,7 @@
 - (void) didPause:(id)stopwatch;
 - (void) didStop:(id)stopwatch withValue:(NSTimeInterval)value;
 - (void) didChange:(id)stopwatch;
+- (void) didFinish:(id)stopwatch;
 @end
 
 // Timer
